@@ -112,8 +112,8 @@ lv_obj_t *zmk_display_status_screen() {
 #if !IS_ENABLED(CONFIG_CUSTOM_WIDGET_LAYER_STATUS)
     lv_obj_t *zenlogo_icon;
     zenlogo_icon = lv_img_create(screen);
-    LV_IMG_DECLARE(timlogo);
-    lv_img_set_src(zenlogo_icon, &timlogo);
+    LV_IMG_DECLARE(timlogoleft);
+    lv_img_set_src(zenlogo_icon, &timlogoleft);
     lv_obj_align(zenlogo_icon, LV_ALIGN_BOTTOM_MID, 0, -5);
 #endif
 #endif
