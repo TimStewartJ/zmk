@@ -96,6 +96,9 @@ lv_obj_t *zmk_display_status_screen() {
   #elif IS_ENABLED(CONFIG_CUSTOM_WIDGET_LOGO_IMAGE_ZMK)
     LV_IMG_DECLARE(zmklogo);
     lv_img_set_src(zenlogo_icon, &zmklogo);
+  #elif IS_ENABLED(CONFIG_CUSTOM_WIDGET_LOGO_IMAGE_TIM)
+    LV_IMG_DECLARE(timlogo);
+    lv_img_set_src(zenlogo_icon, &timlogo);
   #elif IS_ENABLED(CONFIG_CUSTOM_WIDGET_LOGO_IMAGE_MIRYOKU)
     LV_IMG_DECLARE(miryokulogo);
     lv_img_set_src(zenlogo_icon, &miryokulogo);

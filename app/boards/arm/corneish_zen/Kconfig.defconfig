@@ -93,6 +93,9 @@ choice CUSTOM_WIDGET_LOGO_IMAGE
 	config CUSTOM_WIDGET_LOGO_IMAGE_ZMK
 		bool "ZMK"
 
+    config CUSTOM_WIDGET_LOGO_IMAGE_TIM
+		bool "TIM"
+
 	config CUSTOM_WIDGET_LOGO_IMAGE_MIRYOKU
 		bool "Miryoku"
 
